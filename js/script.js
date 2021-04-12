@@ -15,3 +15,25 @@ var studente = {
 for (var key in studente) {
     console.log(studente[key])
 }
+
+//2a. creo un array che contiene gli oggetti studenti
+var arrayStudenti = [
+    {
+        //studente 0
+        'nome' : 'Michela',
+        'cognome' : 'Dellacroce',
+        'eta' : 22
+    },
+    {
+        //studente 0
+        'nome' : 'Simone',
+        'cognome' : 'Andreatta',
+        'eta' : 24
+    },
+    {
+        //studente 0
+        'nome' : 'Celine',
+        'cognome' : 'Zingerle',
+        'eta' : 23
+    },
+];
