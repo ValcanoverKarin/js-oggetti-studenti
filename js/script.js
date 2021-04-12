@@ -25,13 +25,13 @@ var arrayStudenti = [
         'eta' : 22
     },
     {
-        //studente 0
+        //studente 1
         'nome' : 'Simone',
         'cognome' : 'Andreatta',
         'eta' : 24
     },
     {
-        //studente 0
+        //studente 2
         'nome' : 'Celine',
         'cognome' : 'Zingerle',
         'eta' : 23
@@ -61,4 +61,6 @@ var nuovoStudente= {
     'eta': nuovaEtaUtente
 }
 
-//3c.
+//3c. inserisco nella classe il nuovo studente
+arrayStudenti.push(nuovoStudente);
+console.log(arrayStudenti);
