@@ -37,3 +37,14 @@ var arrayStudenti = [
         'eta' : 23
     },
 ];
+
+//2a. ciclare su tutti gli studenti e stampare per ognuno nome e cognome
+for (var i = 0; i < arrayStudenti.length; i++) {
+    //prendo ogni singolo oggetto
+    var thisStudente = arrayStudenti[i];
+    //console.log(thisStudente);
+
+    //stampo il nome di ogni oggetto studenti
+    console.log(thisStudente.nome);
+    console.log(thisStudente.cognome);
+}
