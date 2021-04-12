@@ -48,3 +48,8 @@ for (var i = 0; i < arrayStudenti.length; i++) {
     console.log(thisStudente.nome);
     console.log(thisStudente.cognome);
 }
+
+//3.a chiedo all' utente nome, cognome e età tramite prompt creando una variabile per ogni richiesta
+var nomeUtente = prompt('Inserisci il tuo nome');
+var cognomeUtente = prompt('Inserisci il tuo cognome');
+var etaUtente = parseInt(prompt('Inserisci la tua età'));
